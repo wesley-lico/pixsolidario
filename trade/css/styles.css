@@ -1,0 +1,55 @@
+body{
+    background-color:black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: consolas;
+    min-height: 100vh;
+
+}
+#botão{
+    width: 300.73px;
+    height: 58px;
+    float:right;
+    margin: 100px;
+    display: block;
+    
+
+}
+#texto{
+    width: 500px;
+    height: 300px;
+    display: block;
+}
+h1{
+    color: #2196f3;
+}
+p{
+    color: #2196f3;
+    font-size:21px ;
+}
+a{
+    display: inline-block;
+    position: relative;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    
+}
+a:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+}
+@media (max-width:600px){
+    #texto{width:100%;
+    }
+
+}
